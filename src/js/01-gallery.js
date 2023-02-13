@@ -5,8 +5,6 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-console.log(galleryItems);
-
 const strMarkup = galleryItems.map(el => {
   const newElem =
     '<a class="gallery__item"' +
